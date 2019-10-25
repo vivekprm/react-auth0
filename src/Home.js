@@ -8,7 +8,7 @@ class Home extends Component {
       <div>
         <h1>Home</h1>
         {isAuthenticated() ? (
-          <Link to="/prfile">View Profile</Link>
+          <Link to="/profile">View Profile</Link>
         ) : (
           <button onClick={login}>Login</button>
         )}
